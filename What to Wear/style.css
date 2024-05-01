@@ -1,0 +1,62 @@
+/*
+Palette:
+
+--golden-brown: #975B0Bff;
+--french-blue: #2C74B8ff;
+--mountbatten-pink: #86798Aff;
+--mulberry: #B75191ff;
+--mountbatten-pink-2: #AF799Dff;
+--lemon-chiffon: #FCF7B7ff;
+--butterscotch: #DD974Bff;
+
+Font size:
+SMALL - 3.2rem
+
+*/
+/* HEADER */
+body {
+  background-color: rgba(99, 94, 100, 0.973);
+  font-family: "Nunito Sans", "sans-serif";
+  font-weight: 600;
+}
+
+/* NAVIGATION */
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  border: 1px solid rgba(0, 0, 0, 0.507);
+  height: 8rem;
+  width: auto;
+  border-radius: 50%;
+  position: unset;
+}
+
+.main-nav-list {
+  list-style-type: none;
+  display: flex;
+  gap: 5.2rem;
+}
+
+.main-question {
+  display: flex;
+  justify-content: center;
+  font-size: 3.2rem;
+  background: -webkit-linear-gradient(
+    #dd974bff,
+    #dd974bff,
+    #975b0bff,
+    #dd974bff
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.sunray {
+  background: -webkit-linear-gradient(#dd974bff, #975b0bff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
